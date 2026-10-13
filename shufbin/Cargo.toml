@@ -1,0 +1,9 @@
+[package]
+name = "shufbin"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+memchr = "2"
+libc = "0.2"
+bigcore = { path = "../bigcore" }
